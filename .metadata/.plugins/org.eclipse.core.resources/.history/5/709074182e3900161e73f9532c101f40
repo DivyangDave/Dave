@@ -1,0 +1,20 @@
+public class Inheritance_var {
+	public static void main(String[] args) {
+		D d =new F();
+		System.out.println(d);
+	}
+}
+
+class D{
+	static int a=10;
+	public D(){
+	System.out.println(a);
+	}
+}
+
+class F extends D{
+	static int a=20;
+	public F(){
+		System.out.println(a);
+	}
+}

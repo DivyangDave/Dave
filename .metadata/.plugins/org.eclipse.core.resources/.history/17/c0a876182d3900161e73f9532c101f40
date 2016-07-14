@@ -1,0 +1,19 @@
+public class Inheritance_var {
+	public static void main(String[] args) {
+		A a=new B();
+	}
+}
+
+class A{
+	int a=10;
+	public A(){
+	System.out.println(a);
+	}
+}
+
+class B extends A{
+	int  a=20;
+	public B(){
+		System.out.println(a);
+	}
+}
